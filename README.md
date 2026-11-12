@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TaskFlow — Task Management Application
+
+TaskFlow is a task management web application built
+using Next.js, React, TypeScript, and Tailwind CSS.
+
+This independent portfolio project demonstrates
+software development and quality assurance practices.
+
+## Features
+
+- Add new tasks
+- Mark tasks as completed
+- Reopen completed tasks
+- Delete tasks
+- Display total task count
+- Prevent empty task submissions
+- Automatically trim task titles
+
+## Technology Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Git and GitHub
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js
+- npm
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   git clone https://github.com/deshani111/taskflow.git
 
-## Learn More
+2. Navigate to the project:
 
-To learn more about Next.js, take a look at the following resources:
+   cd taskflow
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Install dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   npm install
 
-## Deploy on Vercel
+4. Start the development server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. Open http://localhost:3000
+
+To use port 3001 instead:
+
+   npm run dev -- -p 3001
+
+## Quality Assurance
+
+Manual functional testing has been performed
+on the task management features.
+
+- Test cases: 10
+- Reported passed: 10
+- Reported failed: 0
+- Testing type: Manual Functional Testing
+
+Test documentation:
+[View Test Cases](docs/test-cases.md)
+
+## Current Limitations
+
+- Tasks are stored in React state.
+- Tasks disappear after refreshing the page.
+- Database integration is not yet implemented.
+- Automated testing is planned for future development.
+
+## Planned Improvements
+
+- Task editing
+- Task priorities
+- Task deadlines
+- Database integration
+- API testing with Postman
+- Automated testing with Playwright
+- Deployment
+
+## Project Purpose
+
+This project was created to strengthen practical
+Software Engineering and Quality Assurance skills.
+
+## Author
+
+Deshani Anjula
+
+GitHub: https://github.com/deshani111
